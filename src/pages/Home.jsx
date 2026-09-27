@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
-    <div>
+    <div className="home-page">
       <h1>Welcome to My Portfolio</h1>
 
-      <p>
+      <p className="intro">
         Hello! Welcome to my personal portfolio website.
       </p>
 
@@ -19,7 +21,15 @@ function Home() {
         create useful and practical software solutions.
       </p>
 
-      <button>About Me</button>
+      <div className="home-buttons">
+        <Link to="/about" className="button">
+          About Me
+        </Link>
+
+        <Link to="/projects" className="button">
+          My Projects
+        </Link>
+      </div>
     </div>
   );
 }
