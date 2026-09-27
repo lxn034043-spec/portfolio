@@ -3,7 +3,7 @@ function About() {
     <div className="about-page">
       <h1>About Me</h1>
 
-      <h2>LXN</h2>
+      <h2>Lian Xiangnan</h2>
 <img
   src="/digital%20photo.jpg"
   alt="LXN professional portrait"
